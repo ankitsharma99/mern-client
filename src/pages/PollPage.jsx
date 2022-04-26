@@ -4,6 +4,7 @@ import Poll from "../components/Poll";
 import ErrorMessage from "../components/ErrorMessage";
 
 const PollPage = ({ match, getPoll }) => {
+  console.log(match);
   getPoll(match.params.id);
 
   return (
@@ -15,3 +16,4 @@ const PollPage = ({ match, getPoll }) => {
 };
 
 export default PollPage;
+// what is the best
