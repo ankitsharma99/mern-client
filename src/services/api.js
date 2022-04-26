@@ -1,5 +1,5 @@
 import axios from "axios";
-const host = "http://localhost:3000/api";
+const host = "https://mern-ovs.herokuapp.com/api";
 
 export const setToken = (token) => {
   if (token) {
